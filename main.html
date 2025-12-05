@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>ストップウォッチ</title>
+</head>
+<body>
+    <h1>ストップウォッチ</h1>
+    <div class="main">
+        <input type="text" class="time display1" disabled>
+        <p class="time">：</p>
+        <input type="text" class="time display2" disabled>
+        <input type="text" class="time display3" disabled>
+        <p class="time">.</p>
+        <input type="text" class="time display4" disabled>
+    </div>
+    <div class="controls">
+        <button class="btn start" data-action="start">スタート</button>
+        <button class="btn stop" data-action="stop">ストップ</button>
+        <button class="btn reset" data-action="reset">リセット</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

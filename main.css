@@ -1,0 +1,47 @@
+body {
+    background: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin:0 0 150px 0;
+    color: rgb(141, 141, 141);
+}
+
+.main {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.time {
+    font-size: 100px;
+    width: 1.5em;
+    text-align: center;
+    background: black;
+    border: none;
+    color: #00aaff; 
+}
+
+.controls {
+    display: flex;
+    padding: 1em;    
+    gap: 5px;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    padding: 1.3em;
+    font-size: 30px;
+    margin: 40px 0;
+    border-radius: 40px;
+    background: #0089cd
+}
+
+.btn:hover {
+    background: #00aaff;
+}
