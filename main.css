@@ -39,7 +39,8 @@ h1 {
     font-size: 30px;
     margin: 40px 0;
     border-radius: 40px;
-    background: #0089cd
+    background: #0089cd;
+    border: none;
 }
 
 .btn:hover {
